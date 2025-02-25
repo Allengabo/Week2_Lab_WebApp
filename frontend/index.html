@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="section1">
+        <!-- Background Video -->
+        <video autoplay muted loop id="bgVideo">
+            <source src="vid1.mp4" type="video/mp4">
+        </video>
+
+        <div class="content">
+            <h1>Cake Shop Online</h1>
+            <p>Best cake is made just for you!.</p>
+            
+            <input type="text" id="searchBar" placeholder="Search for the cake..." onkeyup="searchCake()">
+            
+            <ul id="cakeList">
+                <li>Chocolate Cake</li>
+                <li>Vanilla Cake</li>
+                <li>Strawberry Shortcake</li>
+                <li>Red Velvet Cake</li>
+                <li>Cheesecake</li>
+                <li>Black Forest Cake</li>
+                <li>Carrot Cake</li>
+            </ul>
+
+            <p id="noResults" style="color: red; display: none;">No results found</p>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div class="section-box">
+            <h1>About Us</h1>
+            <p>Manufacturer: Allen Inc.</p>
+            <p>Location: TUP-Manila</p>
+        </div>
+    
+        <div class="section-box">
+            <h1>Terms & Condition</h1>
+            <p>All sales are final.</p>
+            <p>Quality assurance guaranteed.</p>
+        </div>
+    
+        <div class="section-box">
+            <h1>Contacts</h1>
+            <p>Email: support@allenInc.com</p>
+            <p>Phone: +(63) 91-2345-679</p>
+        </div>
+    
+        <div class="section-box">
+            <h1>More Info</h1>
+            <p>Follow us on social media for updates!</p>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

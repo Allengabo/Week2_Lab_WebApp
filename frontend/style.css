@@ -1,0 +1,103 @@
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+/* Video Background */
+#bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire background */
+    z-index: -1;
+}
+
+/* Content on top of the video */
+.content {
+    position: relative;
+    z-index: 1;
+    color: chocolate;
+    background: rgba(0, 0, 0, 0.5); /* Add a dark overlay for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Section 1 Styling (Search Feature) */
+#section1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Search Bar Styling */
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+/* Cake List Styling */
+#cakeList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#cakeList li {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+}
+
+/* Section 2 Styling */
+#section2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwmSZeZ_ZFa4YuKicYispg_pIz7HCOcy5PA&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(223, 156, 80);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.section-box {
+    width: 200px; 
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
